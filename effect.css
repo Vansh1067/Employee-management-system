@@ -1,12 +1,9 @@
-.menu ul li:hover{
+.list-item li:hover{
     color:green;
     
 }
-.menu ul li:hover ul  {
+.list-item li:hover #dropdown  {
     display: block;
-    transition-duration: 1s;
-   
-    
 }
 .menu ul li ul li:hover{
     color: green;
