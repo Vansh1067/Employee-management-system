@@ -3,7 +3,7 @@
 const loginContent=document.getElementById('listItem');
 loginContent.addEventListener('click',(e)=>{
     target=e.target.value;
-    console.log(target)
+    
     displaylogin(target);
 })
 function displaylogin(t){
