@@ -42,7 +42,10 @@ body{
     padding-right: 55px;
     font-size: 15px;
 }
-
+.list-item li a{
+    text-decoration: none;
+    color: white;
+}
 
 .list-item li{
     padding: 10px;
