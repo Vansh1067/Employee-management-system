@@ -5,7 +5,7 @@
 .list-item li:hover #dropdown  {
     display: block;
 }
-.menu ul li ul li:hover{
+#dropdown li a:hover{
     color: green;
     
 }

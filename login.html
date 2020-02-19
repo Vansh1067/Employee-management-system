@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="effect.css">
     <link rel="stylesheet" href="mediaquery.css">
+    <link rel="stylesheet" href="css/login.css">
     <script src="index.js" defer></script>
 </head>
 <body>
@@ -16,23 +17,28 @@
             <img id="toggle" src="images/icons8-menu-64.png">
             <ul class=" hide list-item " id="listItem">
                 <li><a>HOME</a></li>
-                <li><a>ABOUT US</a></li>
-                <li><a>SERVICES</a></li>
-                <li><a>GROUPS</a></li>
-                <li><a>LOGIN</a>
-                    <ul id="dropdown">
-                        <li><a href="login.html">ADMIN</a></li>
-                        <li><a href="login.html">EMPLOYEE</a></li>
-                    </ul>
-                </li>
-                <li>CONTACT</li>
+                <li><a>ADMIN lOGIN</a></li>
+                <li><a>EMPLOYEE LOGIN</a></li>
+                
+              
             </ul>
         </div>
     </header>
     <section>
         <div class="login">
-
-        </div>
+            <img src="images/login.png"/>
+            <div class="content">
+                <h2 id="heading">ADMIN</h2>
+                <form>
+                    <label>Admin User Id</label><br>
+                    <input type="text" placeholder="Enter Admin Id">
+                    <br>  <label>Admin Password</label><br>
+                    <input type="password" placeholder="Enter Admin Password">
+                    <button type="submit">Login</button>
+                </form>
+    
+            </div>
+                 </div>
     </section>
 </body>
 </html>
