@@ -92,6 +92,7 @@ section{
     color: green;
 }
 
+
 @media only screen and (max-width: 1060px){
 
 .main-container{
@@ -103,33 +104,42 @@ section{
 @media only screen and (max-width: 500px){
 section{
     grid-template-columns: 1fr;
+    
 }
     .main-container{
         grid-template-columns: 1fr ;
-
+        position: relative;
         margin-top:30px;
     
         
     }
-    aside{
+     .hide{
         display: none;
+        
+        
     }
+    aside{
+        position: absolute;
+        background-color: black;
+        z-index: 5;
+
     }
+    
+    .menu ul{
+        display: none;
+    } 
+    #toggle{
+        display: block;
+    }
+}
 
  @media only screen and (max-width: 450px){
         section{
             grid-template-columns: 1fr;
         }
-       .hide{
-           display: none;
-       }
-       .menu{
-           justify-content: space-around;
-       }
-       .menu h2{
-           text-align: center;
-           font-size: 20px;
-       }
+       
+      
+       
         }
 @media only screen and (max-width: 340px){
     #toggle{
