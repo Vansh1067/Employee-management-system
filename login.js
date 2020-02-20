@@ -1,18 +1,20 @@
 
-
 const loginContent=document.getElementById('listItem');
 loginContent.addEventListener('click',(e)=>{
+  
     target=e.target.value;
-    
     displaylogin(target);
 })
 function displaylogin(t){
     if(t==01){
-        name="Employee"
+        name="Employee";
+      
     }
     else if(t==00){
-        name="Admin"
+        name="Admin";
+       
     }
+    
     createloginDiv(name);
 }
 function createloginDiv(n){
@@ -25,3 +27,4 @@ function createloginDiv(n){
 `
 }
 createloginDiv(name);
+
