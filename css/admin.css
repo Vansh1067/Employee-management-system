@@ -1,5 +1,5 @@
 body{
-    background-image: url(../images/admin.JPG);
+    background-image: url(../images/admin.jpg);
     background-repeat:no-repeat ;
     background-size:100% 100vh ;
     height: 100vh;
@@ -69,8 +69,9 @@ section{
 }
 .main-container div:hover >.dropdown{
  display: block;
+ 
 }
-.main-container p:hover{
+.main-container div:hover{
     color: green;
 }
 .dropdown h4 a{
@@ -130,6 +131,18 @@ section{
     } 
     #toggle{
         display: block;
+    }
+    .main-container div{
+        position: relative;
+    }
+    .dropdown{
+        background-color: black;
+        height: 130px;
+        
+        z-index: 5;
+    }
+    .main-container div:last-child .dropdown{
+        height: 100px;
     }
 }
 
