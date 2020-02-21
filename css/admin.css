@@ -7,6 +7,7 @@ body{
 aside{
     background-color: rgba(0, 0, 0, 0.567);
     height: 100%;
+    
 }
 .content{
     margin:0;
@@ -20,6 +21,9 @@ aside{
     list-style: none;
     padding:15px;
    
+}
+.hiden{
+    display: none !important;
 }
  
 .content ul li a{
@@ -64,7 +68,7 @@ section{
     
     
 }
-.main-container div p:hover +div{
+.main-container div:hover div{
  display: block;
  
 }
@@ -141,6 +145,8 @@ section{
     .main-container div:last-child .dropdown{
         height: 100px;
     }
+   
+     
 }
 
  @media only screen and (max-width: 450px){

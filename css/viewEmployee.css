@@ -1,0 +1,85 @@
+body{
+    background-color: rgb(250, 255, 205);
+}
+.main-area{
+    display: grid;
+}
+.searchbar{
+    display: flex;
+    justify-content: right;
+    margin-right:25px;
+    padding-top:15px;
+}
+.searchbar input{
+    background: transparent;
+    height: 25px;
+    border:none;
+    outline: none;
+    border-bottom: 3px solid orange;
+    padding: 5px;
+    font-size: 15px;
+
+}
+.searchbar button{
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    padding: 5px;
+    background: orange;
+}
+.boxes{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow: scroll;
+   
+}
+.sub-box{
+    background-color: rgba(230, 142, 10, 0.418);
+    max-height: 250px;
+    display: grid;
+   margin:10px 5px;
+    
+}
+.sub-box img{
+    width:120px;
+    display: flex;
+    margin: 5px auto;
+}
+.sub-box h4{
+    text-align: center;
+
+}
+.details{
+    padding: 8px;
+    font-size: 15px;
+
+}
+.row{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-weight: bold;
+}
+.row p:last-child{
+ text-align: right;
+ 
+}
+.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+.button button{
+    margin:3px;
+    border: none;
+    border-radius: 3px;
+    padding:2px;
+    font-weight: bold;
+    background-color: darkgreen;
+
+}
+.button button:last-child{
+    background-color: red;
+    
+}
