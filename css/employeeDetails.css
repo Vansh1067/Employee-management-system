@@ -1,0 +1,9 @@
+.empDetails{
+    display:grid;
+
+}
+.header{
+    display: flex;
+    max-height: 200px;
+    padding:20px;
+}
