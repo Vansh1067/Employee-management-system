@@ -1,0 +1,82 @@
+.addemp{
+    
+    overflow-y: scroll;
+    
+}
+.addemp h2{
+ text-align: center;
+ font-size:35px;
+ margin:35px 0;
+}
+
+.area{
+    display: grid;
+    background-color: rgba(0, 0, 0, 0.445);
+    margin:0 auto;
+    max-width:600px;
+    padding:10px;
+
+}
+form{
+display: grid;
+
+}
+form p{
+    text-align: center;
+    font-size:25px;
+    color: white;
+    font-weight: bolder;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+.sub-area{
+    display:grid;
+    justify-content: center;
+    
+
+}
+span{
+    color:red;
+}
+.input-feild{
+    margin:15px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+    flex-direction:row;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    margin-right:50px;
+    padding:0px;
+}
+ input,select{
+    background-color: transparent;
+    color: white;
+    border: none;
+    width:120px;
+    border-bottom: 3px solid white;
+    padding-bottom: 5px;
+}
+input[type='radio']{
+    width:10px;
+    
+}
+@media only screen and (max-width:331px){
+    label{
+        font-size:15px;
+    }
+
+ }
+ @media only screen and (max-width:304px){
+    label{
+        font-size:10px;
+    }
+    input,select{
+        width:100px;
+    }
+    
+ }
+

@@ -3,12 +3,16 @@ body{
 }
 .main-area{
     display: grid;
+    overflow-y: scroll;
+    
 }
 .searchbar{
     display: flex;
-    justify-content: right;
+    justify-content: center;
+    align-items: center;
     margin-right:25px;
     padding-top:15px;
+    
 }
 .searchbar input{
     background: transparent;
@@ -18,6 +22,7 @@ body{
     border-bottom: 3px solid orange;
     padding: 5px;
     font-size: 15px;
+    
 
 }
 .searchbar button{
@@ -29,11 +34,9 @@ body{
 }
 .boxes{
     display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    flex-direction: row;
-    overflow: scroll;
-   
+    flex-wrap:wrap;
+    justify-content:space-around;
+    flex-direction:row;
 }
 .sub-box{
     background-color: rgba(230, 142, 10, 0.418);
