@@ -40,9 +40,9 @@ body{
 }
 .sub-box{
     background-color: rgba(230, 142, 10, 0.418);
-    max-height: 250px;
+    
     display: grid;
-   margin:10px 5px;
+    margin:10px 5px;
     
 }
 .sub-box img{
