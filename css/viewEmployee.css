@@ -40,7 +40,6 @@ body{
 }
 .sub-box{
     background-color: rgba(230, 142, 10, 0.418);
-    
     display: grid;
     margin:10px 0;
     
