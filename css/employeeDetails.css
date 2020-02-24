@@ -6,11 +6,10 @@
 }
 .header{
     display: flex;
-    max-height: 200px;
+    
     padding:20px;
     justify-content: space-around;
     flex-direction: row;
-    
     flex-wrap: wrap;
 }
 .names{
@@ -75,7 +74,7 @@
     padding:0 10px;
   
 } 
-@media only screen and (max-width:589.5px){
+/* @media only screen and (max-width:589.5px){
     .section{
     position: relative;
     top:100px;
@@ -86,4 +85,4 @@
    .sub-details p{
        font-size: 10px;
    }
-}
+} */
