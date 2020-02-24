@@ -1,0 +1,73 @@
+.section-area{
+    overflow-y: scroll;
+    
+}
+.section-area h2,.section-area:first-of-type p{
+    text-align: center;
+}
+.heading{
+    font-size: 35px; font-weight: bolder;
+}
+.leave-buttons{
+  
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.pending{
+    background-color: rgb(10, 23, 216);
+}
+.approve{
+    background-color: darkgreen;
+
+}
+.denied{
+    background-color: darkred;
+}
+.cancel{
+    background-color:orange;
+}
+.table{
+    display: flex;
+    color: blanchedalmond;
+    
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+.sub-table{
+    display:grid;
+    background-color: rgba(0, 0, 0, 0.732);
+    margin: 10px auto;
+    padding:5px;
+    
+   
+
+}
+.table-feild{
+    display: flex;
+    word-break: keep-all;
+    justify-content: space-between;
+    margin:5px 0;
+}
+.table-feild p{
+    margin:0 10px ;
+}
+.table-buttons{
+    display: flex;
+    margin:auto;
+    
+}
+.table-buttons button,.leave-buttons button{
+    border: none;
+    border-radius: 5px;
+    font-weight: bolder;
+    margin:5px;
+    padding: 5px;
+    
+}
+
+
+
