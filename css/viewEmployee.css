@@ -4,12 +4,14 @@ body{
 .main-area{
     display: grid;
     overflow-y: scroll;
+    overflow-x: hidden;
     
 }
-.searchbar{
+.searchbar form{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content:center;
+    flex-wrap: wrap;
+    flex-direction: row;
     margin-right:25px;
     padding-top:15px;
     
