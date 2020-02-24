@@ -42,7 +42,7 @@ body{
     background-color: rgba(230, 142, 10, 0.418);
     
     display: grid;
-    margin:10px 5px;
+    margin:10px 0;
     
 }
 .sub-box img{
